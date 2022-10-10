@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --main-color: #aea9ec;
+    --secondary-color: #007cff;
+}
+
+
 section {
     padding: 2rem;
 }
@@ -70,10 +77,11 @@ html {
     
 }
 
-#demo-img {
+/*#demo-img {
     display: block;
     width: 75%;
     margin: auto;
     position: relative;
     bottom: 1.5rem;
-}
+}*/
+

@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+* {
+    border: 1px dashed blue;
+}
+
 :root {
     --main-color: #aea9ec;
-    --secondary-color: #007cff;
+    --secondary-color: #a1dafe;
 }
 
 
@@ -24,18 +28,20 @@ html {
     padding: 0 0.5rem;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
-.row > * {
+/*.row > * {
     flex-grow: 1;
     flex-basis: 100%;
     padding: 0.5rem;
     
+}*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 .col100 {
     flex-basis: 100%;
 }
@@ -71,10 +77,8 @@ html {
 
 .cards{
     border-radius: 20px;
-    background-color: white ;
-    min-height: 200px;
+    background-color: var(--secondary-color) ;
     padding: 1rem;
-    
 }
 
 /*#demo-img {

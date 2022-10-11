@@ -77,7 +77,7 @@
     border-radius: 20px;
     background-color: white;
     padding: 1rem;
-    /* min-height: 200px; */
+    min-height: 200px;
   }
   
   .card-primary {
@@ -115,4 +115,8 @@
 
   .fa {
     height: 60%;
+  }
+
+  .strategic-planning {
+    background-color: var(--color-secondary);
   }

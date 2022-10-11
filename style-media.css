@@ -10,6 +10,7 @@
   
     .col-md-1_3 {
       flex-basis: calc(100% / 3);
+      
     }
   
     .col-md-2_3 {
@@ -29,10 +30,13 @@
       flex-basis: calc((100% / 4) * 3);
     }
   
-    .px-md-4 {
-      padding-left: 4rem;
-      padding-right: 4rem;
-    }
+    
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
   }
   
   /* Risoluzione LARGE - LG */
@@ -44,9 +48,15 @@
     .container {
       max-width: 920px;
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
   
     .col-lg-1_2 {
       flex-basis: 50%;
+      
     }
   
     .col-lg-1_3 {
@@ -73,4 +83,13 @@
       padding-left: 4rem;
       padding-right: 4rem;
     }
+
+    .fa-bars {
+        display: none;
+    }
+
+    ol,li {
+        display: block;
+    }
+
   }

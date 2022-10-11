@@ -1,74 +1,76 @@
-/*Medium-md*/
-@media screen and (min-widht: 767px) {
-
+/* Risoluzione MEDIUM - MD */
+@media screen and (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  
+    .col-md-1_2 {
+      flex-basis: 50%;
+    }
+  
+    .col-md-1_3 {
+      flex-basis: calc(100% / 3);
+    }
+  
+    .col-md-2_3 {
+      flex-basis: calc(100% / 3 * 2);
+    }
+  
+  
+    .col-md-1_4 {
+      flex-basis: 25%;
+    }
+  
+    .col-md-2_4 {
+      flex-basis: 50%;
+    }
+  
+    .col-md-3_4 {
+      flex-basis: calc((100% / 4) * 3);
+    }
+  
+    .px-md-4 {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
+  
+  /* Risoluzione LARGE - LG */
+  @media screen and (min-width: 920px) {
+    html {
+      font-size: 18px;
+    }
+  
     .container {
-        max-width: 767px;
+      max-width: 920px;
     }
-
-    .col-md-1-2 {
-        flex-basis: 50%;
+  
+    .col-lg-1_2 {
+      flex-basis: 50%;
     }
-    
-    .col-md-2-2 {
-        flex-basis: 100%;
+  
+    .col-lg-1_3 {
+      flex-basis: calc(100% / 3);
     }
-    
-    .col-md-1-3 {
-        flex-basis: 33.33%;
+  
+    .col-lg-2_3 {
+      flex-basis: calc(100% / 3 * 2);
     }
-    
-    .col-md-2-3 {
-        flex-basis: calc(100% / 3 * 2);
+  
+    .col-lg-1_4 {
+      flex-basis: 25%;
     }
-    
-    .col-md-1-4 {
-        flex-basis: 25%;
+  
+    .col-lg-2_4 {
+      flex-basis: 50%;
     }
-    
-    .col-md-2-4 {
-        flex-basis: 50%;
+  
+    .col-lg-3_4 {
+      flex-basis: calc((100% / 4) * 3);
     }
-    
-    .col-md-3-4 {
-        flex-basis: calc(100% / 4 * 3);
+  
+    .px-lg-4 {
+      padding-left: 4rem;
+      padding-right: 4rem;
     }
-
-}
-
-
-
-/*LARGE-lg*/
-@media screen and (min-widht: 920px) {
-    .container {
-        max-width: 920px;
-    }
-
-    .col-lg-1-2 {
-        flex-basis: 50%;
-    }
-    
-    .col-lg-2-2 {
-        flex-basis: 100%;
-    }
-    
-    .col-lg-1-3 {
-        flex-basis: 33.33%;
-    }
-    
-    .col-lg-2-3 {
-        flex-basis: calc(100% / 3 * 2);
-    }
-    
-    .col-lg-1-4 {
-        flex-basis: 25%;
-    }
-    
-    .col-lg-2-4 {
-        flex-basis: 50%;
-    }
-    
-    .col-lg-3-4 {
-        flex-basis: calc(100% / 4 * 3);
-    }
-
-}
+  }
